@@ -1,0 +1,34 @@
+!!!
+%html{lang: "en"}
+  %head
+    %meta{charset: "UTF-8"}/
+    %meta{content: "width=device-width, initial-scale=1.0", name:"viewport"}/
+    %title Keppler Front Project
+    %link{rel: "stylesheet", href:"assets/css/main.css"}/
+    %link{rel:"stylesheet", href:"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"}
+    %link{rel:"stylesheet" ,href:"https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"}
+  %body
+    %section.one
+    %section.two
+    %section#counter-stats.wow.fadeInRight{"data-wow-duration" => "1.4s"}
+      .container
+        .row
+          .col-lg-3.stats
+            %i.fa.fa-code{"aria-hidden" => "true"}
+            .counting{"data-count" => "1000"} 0
+            %h5 Lines of code
+          .col-lg-3.stats
+            %i.fa.fa-check{"aria-hidden" => "true"}
+            .counting{"data-count" => "280"} 0
+            %h5 Projects done
+          .col-lg-3.stats
+            %i.fa.fa-user{"aria-hidden" => "true"}
+            .counting{"data-count" => "75"} 0
+            %h5 Happy clients
+          .col-lg-3.stats
+            %i.fa.fa-coffee{"aria-hidden" => "true"}
+            .counting{"data-count" => "999"} 0
+            %h5 Cups of coffee
+    
+    %script{src: "assets/js/jquery.min.js"}
+    %script{src: "assets/js/main.js"}
